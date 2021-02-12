@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Lottery Draw
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#f5f5f5;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "Jamesss"
+  },
+  "headline": "Lottery Draw",
+  "datePublished": "2021-02-12",
+  "image": "https://i.pinimg.com/originals/4a/fd/82/4afd822815a226f5610e4da9b54e582a.jpg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hidup ini Sederhana",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=lottery+draw",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<script type='text/javascript' src='//76a7doiet256.com/61/7a/35/617a350bb6a118c1dce7add82ef041fd.js'></script>
+<script type="text/javascript">
+$(document).ready(function() {$('img#closed').click(function(){$('#btm_banner').hide(90);});});
+</script>
+<!--start: floating ads-->
+<div id="floatads" style="width:100%;margin:auto; text-align:center;float:none;overflow:hidden; display:scroll;position:fixed; bottom:0;z-index:9999">
+<div><a id="close-floatads" onclick="document.getElementById('floatads').style.display = 'none';" style="cursor:pointer;"><img alt="close" src="https://3.bp.blogspot.com/-ZZSacDHLWlM/VhvlKTMjbLI/AAAAAAAAF2M/UDzU4rrvcaI/s1600/%20btn_close.gif" title="close button"></a></div>
+<div style="text-align:center;display:block;max-width:728px;height:auto;overflow:hidden;margin:auto">
+<!--Script iklan-->
+<script type="text/javascript">
+	atOptions = {
+		'key' : '0b1b7e9d25620eedaba93ff19ccd1e67',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://76a7doiet256.com/0b1b7e9d25620eedaba93ff19ccd1e67/invoke.js"></scr' + 'ipt>');
+</script>
+<!--Akhir script iklan-->
+</div>
+</div><!--end: floating ads-->
+
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            Lottery Draw
+            </a>
+        </h1>
+        <p>
+                            Best image references website
+                    </p>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+            <div class="d-block p-4">
+	<center>
+		<!-- TOP BANNER ADS -->
+	</center>
+</div>        </center>
+    </header>
+    <main>
+        <article>
+    <p><strong>Lottery Draw</strong>. Around 30 million raised weekly is an average based on April 2019 March 2020. It airs daily except during public holidays on the Peoples Television Network PTV since March 8 1995 and involves the PCSO workforce consisting of more than 2000 employees nationwide.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://i.pinimg.com/564x/0e/31/44/0e3144bc79f951930f55f94d3e9e912d.jpg" alt="Bangkok Lottery Live Draw 01 March 2020 In 2021 Lottery Lottery Results Winning Lottery Numbers" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4uU5X_fD6rLvhhbJLGRLEncd8rvo7waUN3bDNVF44K9QoMOf6wI4T9kduO-nQsApts-We7GtZ0yB4VUri9JE&amp;ec=45774424';">
+        <figcaption>Bangkok Lottery Live Draw 01 March 2020 In 2021 Lottery Lottery Results Winning Lottery Numbers from www.pinterest.com</figcaption>
+    </figure>
+        <p>
+        The first National Lottery draw was held on November 19 1994 when seven winners shared a jackpot of 5874778. Around 30 million raised weekly is an average based on April 2019 March 2020. Lottery Draw Process To protect the integrity of each lottery draw the entire draw process is conducted according to established procedures and in the presence of an independent public accounting firm.
+    </p>
+    <h3>Computer software randomly selects a draw machine and ball set to be used.</h3>
+    <p>PCSO Lottery Draw is a Philippine television game show produced by the Philippine Charity Sweepstakes Office PCSO. If a draw is yet to take place you will see a countdown showing how long is left until it starts then tonights results will be published straight after the draw has finished. Around 30 million raised weekly is an average based on April 2019 March 2020. If someone matches all six theyll take home the second-biggest jackpot in the multi-state lotto games two-decade history.</p>
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="Undefined Lotto Results Lottery Results Lotto Numbers" src="https://i.pinimg.com/736x/5a/10/1a/5a101a7cea939827289cf68ff6cf193a.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT90BU9Dwu9GrU-bRoYLa9nAZ_WeIL9fgRev0F0R5PwJrBquS9efabG79eEU-gkZsJGQRlZlH5PxRUtM9vnV44&amp;ec=45774424';" />
+        <small>Source: www.pinterest.com</small>
+        <p>Lottery Results Here you can find the results for the most popular lotteries including all National Lottery games plus independent society lotteries.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Pin On H5页面" src="https://i.pinimg.com/originals/66/59/bd/6659bd5e25d3aac3732aa6f12da78749.gif" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiyaUfPiMaHW6sYYz_cXUCtotQ_7NgtuajEepkiXNT7f_BZkfwzl2X2YHdaboYDE-uBq8eo3r47if9nOWLfMo&amp;ec=45774424';" />
+        <small>Source: www.pinterest.com</small>
+        <p>National Lottery Projects Since The National Lottery began in 1994 over 625000 good causes have been supported with over 42 billion raised by players of The National Lottery figures sourced from the Department for Culture Media Sport.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Here Is The Thailand Lottery Lucky Sure Number For 01 January 2017 Lottery Draw Download And Follow These Tips For Confirmed Success In Lotto Result We Also U" src="https://i.pinimg.com/736x/d5/04/ac/d504ac04511b4f08cd53245000ea3d02.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xnelkyarC36mnzmqb3_0ebsWuIiJGCL4Mub-vix5gpB-AzQ03T126bCHR32cUtR7hlh4dazshkr2y1q0ZpM&amp;ec=45774424';" />
+        <small>Source: fr.pinterest.com</small>
+        <p>Around 30 million raised weekly is an average based on April 2019 March 2020.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Bangkok Lottery Live Draw 01 March 2020 In 2021 Lottery Lottery Results Winning Lottery Numbers" src="https://i.pinimg.com/564x/0e/31/44/0e3144bc79f951930f55f94d3e9e912d.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4uU5X_fD6rLvhhbJLGRLEncd8rvo7waUN3bDNVF44K9QoMOf6wI4T9kduO-nQsApts-We7GtZ0yB4VUri9JE&amp;ec=45774424';" />
+        <small>Source: www.pinterest.com</small>
+        <p>If a draw is yet to take place you will see a countdown showing how long is left until it starts then tonights results will be published straight after the draw has finished.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Grand Lotto Where Winning Numbers Come From Winning Lottery Numbers Lottery Numbers Lotto Numbers" src="https://i.pinimg.com/originals/e2/0b/f9/e20bf95866912e8939cb1dab391e51d0.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXloeLHokxi8zbzcsZy9N7xeUtD4tlIC_ThxD_WfOAizGDFdBMtUk7NSPMkqpW9CZwXykWAzS8p8Pacq1s_m4&amp;ec=45774424';" />
+        <small>Source: www.pinterest.com</small>
+        <p>Updated within minutes of each draw taking place view the latest results for Lotto EuroMillions Thunderball Health Lottery the Postcode Lottery and more.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Secret Lottery Strategy To Identify The Most Winning Numbers Lottery Strategy Lottery Numbers Winning Lottery Numbers" src="https://i.pinimg.com/originals/d8/72/b7/d872b71379b1dd68c08c01f917b38e02.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-2yOLlNM0q_SXE1GegJciqd270CW5tkcrD_bidohkg3LheILfNqaCjSgapUzlcYz3lSNHNd4JA5Q53Z5Efyc&amp;ec=45774424';" />
+        <small>Source: www.pinterest.com</small>
+        <p>This page is updated straight after each draw takes place so you can be the first to find out if you are a winner.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Thailand Lottery Results And Chart 16th May 2018 Good Luck D Lottery Results Lottery Result Today Lottery Tips" src="https://i.pinimg.com/originals/6e/4c/5b/6e4c5b4eabf85aee4ea75a85e2a79f88.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbDzG00dVNrimp06K-Yi0r3w5AqqHmmgCWByI0onaQinoW-ET5pX_HJWOmo8UswuGVoZowBOWBZJ_lkfxhc88&amp;ec=45774424';" />
+        <small>Source: www.pinterest.com</small>
+        <p>Lottery Draw Process To protect the integrity of each lottery draw the entire draw process is conducted according to established procedures and in the presence of an independent public accounting firm.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="472th Daily Lottery Draw Congratulations To The Lucky Winners That Won A Prize Of 0 005 Bitcoin Each Lottery Winner Lottery T Games" src="https://i.pinimg.com/originals/a5/3c/da/a53cda5cfc88458fb5c20bd7ba522148.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfTL1TmgLoCgctqs0Rvk3MiqGFja7ECG5_EBwDd97Tcic44tnv6UK99FDajn_CZEbmz4Citf6zJyQUQH3jx5c&amp;ec=45774424';" />
+        <small>Source: www.pinterest.com</small>
+        <p>Around 30 million raised weekly is an average based on April 2019 March 2020.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Lotto Strategy The Half Lie The Whole Truth And What Works Lotto Lottery Drawing Lotto Draw" src="https://i.pinimg.com/originals/29/e7/b1/29e7b186c6a5019c6c15cdc161f1d69e.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFpvJ7cGNBVmZ89jT37qjVA9-Ov9Bq8soHpypH9sqeEgF5fOoujH6vbR8jusfA-sZ8mN4HlU_udSgBW5yAN3s&amp;ec=45774424';" />
+        <small>Source: www.pinterest.com</small>
+        <p>View all of todays lottery results on this page.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/superdraw-euromillions-2019.html"><i>&larr; superdraw euromillions 2019</i></a>
+                                                                    
+                                        <a href="/wednesday-lotto-results-qld.html"><i>wednesday lotto results qld &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>		</center>
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4462711,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4462711&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->            <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+
+</html>
